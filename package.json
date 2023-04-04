@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_hayden",
+  "version": "1.0.0",
+  "description": "",
+  "default": "./src/index.html",
+  "extends":"@parcel/config/-default",
+  "resolvers":["@parcel/resolver-glob", "..." ],
+
+  "scripts": {
+    "dev":"parcel src/index.html",
+    "build":"parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
